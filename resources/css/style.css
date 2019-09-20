@@ -14,16 +14,6 @@ Orange color: #e67e22
     box-sizing: border-box;
 }
 
-.logo_text {
-    color: #47ac4b;
-    font-size: 250%;
-    width: 30%;
-    display: inline;
-    padding-top: 10%;
-    font-weight: 300;
-    font-family:serif;
-}
-
 html,
 body {
     background-color: #fff;
@@ -241,10 +231,24 @@ header {
 }
 
 /* Main navi */
+.header-navbar {
+    display: flex;
+}
+
+.logo_text {
+    color: #47ac4b;
+    font-size: 250%;
+    font-weight: 300;
+    font-family:serif;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: auto;
+}
+
 .main-nav {
-    float: right;
     list-style: none;
-    margin-top: 55px;
+    float: right;
+    margin-top: 5%;
 }
 
 .main-nav li {
@@ -295,7 +299,7 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav { margin-top: 5%; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
